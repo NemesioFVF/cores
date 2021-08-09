@@ -1,0 +1,14 @@
+:root {
+  --grad-1: rgb(128, 144, 179);
+  --grad-2: rgb(30, 30, 58);
+}
+
+#color {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(128, 167, 179);
+  background: linear-gradient(60deg, var(--grad-1) 0%, var(--grad-2) 100%);
+}
